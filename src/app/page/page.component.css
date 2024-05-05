@@ -1,0 +1,37 @@
+.image-text-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.image-text-container img {
+  max-width: 300px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.image-text {
+  flex: 1;
+}
+
+.image-text h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.image-text p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Ajouter un style aux liens pour les mettre en valeur */
+.image-text a {
+  color: #007bff; /* Couleur des liens */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.image-text a:hover {
+  text-decoration: underline; /* Souligner au survol */
+}
